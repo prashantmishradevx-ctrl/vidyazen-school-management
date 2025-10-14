@@ -1,0 +1,17 @@
+{
+    "name": "vidyazen/school-management-system",
+    "description": "VIDYAZEN School Management System - Complete solution for educational institutions",
+    "type": "project",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VIDYAZEN Team",
+            "email": "info@vidyazen.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

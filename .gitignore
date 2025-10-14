@@ -1,0 +1,27 @@
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local development files
+config/local_database.php
+
+# Composer vendor directory (if using composer)
+# vendor/
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
