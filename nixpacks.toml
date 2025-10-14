@@ -4,5 +4,8 @@ nixPkgs = ["php81", "php81Packages.composer"]
 [phases.build]
 cmds = ["composer install --no-dev --optimize-autoloader"]
 
+[phases.deploy]
+cmds = ["chmod +x railway-deploy.sh", "./railway-deploy.sh"]
+
 [start]
 cmd = "php -S 0.0.0.0:$PORT"
